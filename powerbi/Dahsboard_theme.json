@@ -1,0 +1,81 @@
+{
+  "name": "Dashboard theme",
+  "dataColors": [
+    "#2E5EAA",
+    "#5B9BD5",
+    "#ED7D31",
+    "#70AD8C",
+    "#8064A2",
+    "#F2C811",
+    "#264478",
+    "#9E480E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#404040",
+  "tableAccent": "#2E5EAA",
+  "good": "#70AD8C",
+  "bad": "#C0504D",
+  "neutral": "#F2C811",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#404040"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#262626"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#595959"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E1E1E1" } },
+            "radius": 6
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontSize": 14,
+            "fontFamily": "Segoe UI Semibold",
+            "fontColor": { "solid": { "color": "#262626" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#2E5EAA" } },
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#595959" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    }
+  }
+}
