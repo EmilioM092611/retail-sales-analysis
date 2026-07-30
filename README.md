@@ -1,4 +1,4 @@
-# 🛒 Retail Sales Analysis
+# Retail Sales Analysis
 
 An end-to-end Retail Sales Analytics project developed using Python and Power BI.
 
